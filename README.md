@@ -1,9 +1,6 @@
 # React Developer Portfolio template
 #### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
-### Preview ( Dark Mode )
 
-<img src="/preview.gif" alt="preview" width="600px" />
 
 ## Follow Below instructions to add your deatils in the portfolio.
 
@@ -14,12 +11,11 @@
 ```javascript
 / Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Khalil ZAATARI",
+  tagline: "I love IT",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Je suis Khalil ZAATARI, étudiant en 1ère année 2ITE à ENSA El Jadida, 
+  intéressé par le monde d'informatique et future ingénieur.`,
 };
 
 // Enter your Social Media URLs here
@@ -30,16 +26,6 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/",
 };
 
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
 
 // Enter your Education Details here
 export const eduDetails = { ... };
